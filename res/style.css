@@ -87,6 +87,7 @@ footer{
     border-top: 12px solid #444444;
     width: 70px;
     height: 70px;
+    background-color: (100, 71, 52);
     animation: spin 1s linear infinite;
 }
 
