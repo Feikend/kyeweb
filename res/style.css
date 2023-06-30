@@ -20,6 +20,7 @@ h2{
     font-size: 3vw;
 }
 #stemres{
+    position: relative;
     width: 13vw;
     height: 12vw;
     margin: auto;
@@ -33,6 +34,7 @@ h2{
 }
 
 #about{
+    position: relative;
     font-size: 4vw;
     margin: auto;
     padding-right: 10%;
@@ -72,4 +74,33 @@ h1:hover{
 
 h2:hover{
     color: rgb(240, 35, 35);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+#loader {
+    border: 8px solid #f3f3f3;
+    border-radius: 45%;
+    border-top: 12px solid #444444;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
