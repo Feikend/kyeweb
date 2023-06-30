@@ -1,12 +1,12 @@
 body{
-    background-image: url('\img/clouds.png');
-    background-color: rgb(100, 71, 52);
+    background-color: #654834;
     background-size: 40%;
     background-blend-mode: difference;
     margin: auto; 
     text-align: center;
     font-family: 'Bacasime Antique', serif;
     font-size: 5vw;
+    background-image: url('\img/clouds.png');
 }
 
 #stemhead{
